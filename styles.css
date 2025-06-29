@@ -1,0 +1,94 @@
+:root {
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+
+body, html {
+    display: flex;
+    padding-top: 0.4em;
+    margin: 0px auto;
+    background-color:  rgb(68, 70, 68);
+    flex-direction: column;
+}
+
+.booklist {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    background-color: gray;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 4px;
+}
+
+.booktable {
+    display: flex;
+    height: auto;
+    width: auto;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.bookLis {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 12px;
+  padding: 10px;
+}
+
+.bookItem {
+  background-color: #f5f5f5;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.toggle-btn {
+  background-color: #04AA6D;
+  border: none;
+  color: #04AA6D; /* Green */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.toggle-btn {
+  background-color: 2px solid #04AA6D;
+  color: black; 
+  border: 2px solid #04AA6D;
+}
+
+.toggle-btn:hover {
+  background-color: white;
+  color: #04AA6D;
+}
+
+.delete-btn {
+  background-color: red;
+  border: none;
+  color: #04AA6D; /* Green */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.delete-btn {
+  background-color: 2px solid red;
+  color: black; 
+  border: 2px solid red;
+}
+
+.delete-btn:hover {
+  background-color: white;
+  color: red;
+}
